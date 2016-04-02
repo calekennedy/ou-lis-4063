@@ -1,5 +1,59 @@
+body {
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  margin-top: -14px;
+  background-color: #FFF;
+  color: #222;
+}
+
+h3 {
+  clear: both;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 12px;
+  color: #DD4814;
+}
+
+.left-float {
+  width: 405px;
+  margin: auto;
+  padding: 10px;
+  clear: both;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
 .large {
   font-size: 1.5em;
+}
+
+nav {
+  background-color: #CCC;
+  height: 50px;
+  width: 100%;
+}
+
+ul {
+
+}
+
+li {
+  display: inline-block;
+  color: #DD4814;
+  font-size: 22px;
+  margin-right: 14px;
+  padding: 10px;
+}
+
+li a {
+  color: #DD4814;
+  text-decoration: none;
+}
+
+li a:visited {
+  color: #77216F;
 }
 
 .col-left {
@@ -7,10 +61,10 @@
   width: 450px;
   height: 450px;
   margin: 5px;
-  border: 1px solid #222;
+  border: 1px solid #AAA;
   border-radius: 6px;
   padding: 5px;
-  background-color: #666;
+  background-color: #CCC;
   text-align: center;
   overflow: scroll;
 }
@@ -20,10 +74,10 @@
   width: 450px;
   height: 450px;
   margin: 5px;
-  border: 1px solid #222;
+  border: 1px solid #AAA;
   border-radius: 6px;
   padding: 5px;
-  background-color: #666;
+  background-color: #CCC;
   text-align: center;
   overflow: scroll;
 }
@@ -33,10 +87,15 @@
   width: 450px;
   height: 450px;
   margin: 5px;
-  border: 1px solid #222;
+  border: 1px solid #AAA;
   border-radius: 6px;
   padding: 5px;
-  background-color: #666;
+  background-color: #CCC;
   text-align: center;
   overflow: scroll;
+}
+
+.picture-paragraph {
+  font-size: 18px;
+  padding: 0 15px;
 }
