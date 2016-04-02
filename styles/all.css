@@ -2,8 +2,41 @@
   font-size: 1.5em;
 }
 
-#example {
+.col-left {
+  float: left;
+  width: 450px;
+  height: 450px;
+  margin: 5px;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 5px;
   background-color: #666;
-  color: #eee;
+  text-align: center;
+  overflow: scroll;
+}
 
+.col-middle {
+  float: left;
+  width: 450px;
+  height: 450px;
+  margin: 5px;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: #666;
+  text-align: center;
+  overflow: scroll;
+}
+
+.col-right {
+  float: left;
+  width: 450px;
+  height: 450px;
+  margin: 5px;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: #666;
+  text-align: center;
+  overflow: scroll;
 }
