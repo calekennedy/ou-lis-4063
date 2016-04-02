@@ -107,6 +107,7 @@ li a:visited {
 .background-image::after {
   content: "";
   background: url('../images/background.jpg');
+  background-size: 1500px;
   opacity: 0.5;
   top: 0;
   left: 0;
