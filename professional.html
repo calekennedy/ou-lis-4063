@@ -7,13 +7,34 @@
     <title>Cale Kennedy</title>
     <link rel='stylesheet' type='text/css' href='./styles/all.css'>
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,300,700' rel='stylesheet' type='text/css'>
-    <script   src='https://code.jquery.com/jquery-2.2.2.min.js'   integrity='sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI='   crossorigin='anonymous'></script>
-    <script src='./scripts/all.js'></script>
+    <script src='https://code.jquery.com/jquery-2.2.2.min.js'
+            integrity='sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI='
+            crossorigin='anonymous'>
+    </script>
+    <!-- This script creates the header, so I don't have to rewrite each time -->
+    <script>
+      $(function () {
+        $('#header-content').load('./templates/header.html', function () {
+          $('#header-title').text('Professional');
+        });
+      });
+    </script>
   </head>
 
   <body>
     <div id='header-content'></div> <!-- script fills this -->
-    <div id='page-content'></div>
+    <div id='page-content'>
+      <h3> Cale Kennedy </h3>
+      <p>
+        I'm a software developer at <a href='http://wegolook.com'>WeGoLook</a>
+        in Oklahoma City, OK. I have a degree in Mathematical Systems and
+        Computational Theory from the University of Oklahoma.
+      </p>
+      <p>Feel free to browse my
+        <a href='https://goo.gl/cuchi0'>resume</a>.
+        <img src='./images/pdf.jpeg' alt='pdf' style='width:15px;'/>
+      </p>
+    </div>
   </body>
 
 </html>

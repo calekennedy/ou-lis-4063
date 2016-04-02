@@ -1,13 +1,30 @@
+/* Just cause... */
+
 body {
   font-size: 14px;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
   margin: 0;
-  margin-top: -14px;
   background-color: #FFF;
   color: #222;
+  margin-top: 68px;
+}
+
+/* Custom elements used in class */
+
+h1 {
+  font-weight: 300;
+  font-size: 2.35em;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.85em;
 }
 
 h3 {
+  font-weight: 400;
+  font-size: 1.55em;
   clear: both;
   margin: auto;
   text-align: center;
@@ -16,23 +33,24 @@ h3 {
   color: #DD4814;
 }
 
-.left-float {
-  width: 405px;
-  margin: auto;
-  padding: 10px;
-  clear: both;
-  border: 1px solid #222;
-  border-radius: 6px;
-}
+p {
 
-.large {
-  font-size: 1.5em;
 }
 
 nav {
-  background-color: #CCC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 50px;
   width: 100%;
+  border-bottom: 1px solid #DD4814;
+  background-color: #FFF;
+  z-index: 10;
+}
+
+nav ul {
+  margin-top: 2px;
 }
 
 ul {
@@ -54,6 +72,21 @@ li a {
 
 li a:visited {
   color: #77216F;
+}
+
+/* Custom classes used in class */
+
+.left-float {
+  width: 405px;
+  margin: auto;
+  padding: 10px;
+  clear: both;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
+.large {
+  font-size: 1.5em;
 }
 
 .col-left {

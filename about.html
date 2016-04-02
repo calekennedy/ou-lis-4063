@@ -11,8 +11,16 @@
           type='text/css'>
     <script src='https://code.jquery.com/jquery-2.2.2.min.js'
             integrity='sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI='
-            crossorigin='anonymous'></script>
-    <script src='./scripts/all.js'></script>
+            crossorigin='anonymous'>
+    </script>
+    <!-- This script creates the header, so I don't have to rewrite each time -->
+    <script>
+      $(function () {
+        $('#header-content').load('./templates/header.html', function () {
+          $('#header-title').text('About');
+        });
+      });
+    </script>
   </head>
 
   <body>
@@ -45,7 +53,7 @@
         </div>
       </div>
       <div class='container'>
-        <div style='font-size: 18px; padding: 15px;'>
+        <div style='font-size: 18px; padding: 15px; clear:both;'>
           <center>
             <p class='large'>This is my dog, Duke. He's walking on water.<p>
           </center>
