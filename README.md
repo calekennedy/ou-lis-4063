@@ -4,6 +4,6 @@
 
 > http://stackoverflow.com/a/18587027
 
-on mac you can do this open
+on mac you can do this
 
-    -a "Google Chrome" --args --allow-file-access-from-files
+    open -a "Google Chrome" --args --allow-file-access-from-files
