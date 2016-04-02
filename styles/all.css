@@ -99,3 +99,19 @@ li a:visited {
   font-size: 18px;
   padding: 0 15px;
 }
+
+.background-image {
+  display: block;
+  position: relative;
+}
+.background-image::after {
+  content: "";
+  background: url('../images/background.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
